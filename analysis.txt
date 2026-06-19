@@ -1,0 +1,114 @@
+Analyzing days_since_widget.dart...                             
+
+  error • Target of URI doesn't exist: 'package:flutter/material' • lib/days_since_widget.dart:2:8 • uri_does_not_exist
+  error • Classes can only extend other classes • lib/days_since_widget.dart:7:31 • extends_non_class
+  error • Undefined class 'Key' • lib/days_since_widget.dart:12:5 • undefined_class
+   info • Unnecessary 'this.' qualifier • lib/days_since_widget.dart:14:9 • unnecessary_this
+  error • The named parameter 'key' isn't defined • lib/days_since_widget.dart:15:15 • undefined_named_parameter
+  error • Undefined class 'State' • lib/days_since_widget.dart:18:3 • undefined_class
+warning • The method doesn't override an inherited method • lib/days_since_widget.dart:18:26 • override_on_non_overriding_member
+  error • A constant constructor can't call a non-constant super constructor of '_DefaultDate' • lib/days_since_widget.dart:23:26 • const_constructor_with_non_const_super
+  error • Mixin can only be applied to class • lib/days_since_widget.dart:26:37 • mixin_with_non_class_superclass
+  error • Classes can only mix in mixins and classes • lib/days_since_widget.dart:26:65 • mixin_of_non_class
+  error • Undefined class 'AnimationController' • lib/days_since_widget.dart:29:8 • undefined_class
+  error • Undefined class 'Animation' • lib/days_since_widget.dart:30:8 • undefined_class
+warning • The method doesn't override an inherited method • lib/days_since_widget.dart:33:8 • override_on_non_overriding_member
+  error • The method 'initState' isn't defined in a superclass of '_DaysSinceWidgetState' • lib/days_since_widget.dart:34:11 • undefined_super_member
+  error • The method 'AnimationController' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:38:23 • undefined_method
+  error • The method 'CurvedAnimation' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:42:22 • undefined_method
+  error • Undefined name 'Curves' • lib/days_since_widget.dart:44:14 • undefined_identifier
+  error • Undefined name 'mounted' • lib/days_since_widget.dart:50:11 • undefined_identifier
+  error • The method 'setState' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:51:9 • undefined_method
+warning • The method doesn't override an inherited method • lib/days_since_widget.dart:59:8 • override_on_non_overriding_member
+  error • The method 'dispose' isn't defined in a superclass of '_DaysSinceWidgetState' • lib/days_since_widget.dart:62:11 • undefined_super_member
+  error • Undefined class 'Widget' • lib/days_since_widget.dart:66:3 • undefined_class
+warning • The method doesn't override an inherited method • lib/days_since_widget.dart:66:10 • override_on_non_overriding_member
+  error • Undefined class 'BuildContext' • lib/days_since_widget.dart:66:16 • undefined_class
+  error • Undefined name 'widget' • lib/days_since_widget.dart:67:55 • undefined_identifier
+  error • Undefined name 'widget' • lib/days_since_widget.dart:72:31 • undefined_identifier
+  error • Undefined name 'widget' • lib/days_since_widget.dart:72:56 • undefined_identifier
+  error • Undefined name 'widget' • lib/days_since_widget.dart:72:109 • undefined_identifier
+  error • The method 'FadeTransition' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:75:12 • undefined_method
+  error • The method 'Center' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:77:14 • undefined_method
+  error • The method 'Container' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:78:16 • undefined_method
+  error • The name 'all' isn't a class • lib/days_since_widget.dart:80:26 • creation_with_non_type
+  error • The method 'BoxDecoration' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:81:23 • undefined_method
+  error • Undefined name 'BorderRadius' • lib/days_since_widget.dart:82:27 • undefined_identifier
+  error • The name 'LinearGradient' isn't a class • lib/days_since_widget.dart:83:29 • creation_with_non_type
+  error • The method 'Color' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:84:24 • undefined_method
+  error • The method 'Color' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:84:43 • undefined_method
+  error • Undefined name 'Alignment' • lib/days_since_widget.dart:85:22 • undefined_identifier
+  error • Undefined name 'Alignment' • lib/days_since_widget.dart:86:20 • undefined_identifier
+  error • The method 'BoxShadow' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:89:15 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:90:24 • undefined_identifier
+  error • The name 'Offset' isn't a class • lib/days_since_widget.dart:92:31 • creation_with_non_type
+  error • Undefined name 'Border' • lib/days_since_widget.dart:95:21 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:96:22 • undefined_identifier
+  error • The method 'Column' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:100:18 • undefined_method
+  error • Undefined name 'MainAxisSize' • lib/days_since_widget.dart:101:27 • undefined_identifier
+  error • Undefined name 'CrossAxisAlignment' • lib/days_since_widget.dart:102:33 • undefined_identifier
+  error • The method 'Container' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:105:15 • undefined_method
+  error • The name 'symmetric' isn't a class • lib/days_since_widget.dart:106:32 • creation_with_non_type
+  error • The method 'BoxDecoration' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:107:29 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:108:26 • undefined_identifier
+  error • Undefined name 'BorderRadius' • lib/days_since_widget.dart:109:33 • undefined_identifier
+  error • Undefined name 'Border' • lib/days_since_widget.dart:110:27 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:110:45 • undefined_identifier
+  error • The name 'Text' isn't a class • lib/days_since_widget.dart:112:30 • creation_with_non_type
+  error • The method 'TextStyle' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:114:26 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:115:28 • undefined_identifier
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:117:33 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:122:21 • creation_with_non_type
+  error • The method 'Row' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:125:15 • undefined_method
+  error • Undefined name 'MainAxisAlignment' • lib/days_since_widget.dart:126:36 • undefined_identifier
+  error • Undefined name 'CrossAxisAlignment' • lib/days_since_widget.dart:127:37 • undefined_identifier
+  error • Undefined name 'TextBaseline' • lib/days_since_widget.dart:128:31 • undefined_identifier
+  error • The method 'Text' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:130:19 • undefined_method
+  error • The name 'TextStyle' isn't a class • lib/days_since_widget.dart:132:34 • creation_with_non_type
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:134:35 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:135:30 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:139:25 • creation_with_non_type
+  error • The name 'Text' isn't a class • lib/days_since_widget.dart:140:25 • creation_with_non_type
+  error • The method 'TextStyle' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:142:28 • undefined_method
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:144:35 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:145:30 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:148:25 • creation_with_non_type
+  error • The method 'Text' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:149:19 • undefined_method
+  error • The name 'TextStyle' isn't a class • lib/days_since_widget.dart:151:34 • creation_with_non_type
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:153:35 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:154:30 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:158:25 • creation_with_non_type
+  error • The name 'Text' isn't a class • lib/days_since_widget.dart:159:25 • creation_with_non_type
+  error • The method 'TextStyle' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:161:28 • undefined_method
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:163:35 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:164:30 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:169:21 • creation_with_non_type
+  error • The method 'Text' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:171:15 • undefined_method
+  error • The method 'TextStyle' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:173:24 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:174:26 • undefined_identifier
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:176:31 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:179:21 • creation_with_non_type
+  error • The method 'Divider' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:182:15 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:183:24 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:186:21 • creation_with_non_type
+  error • Undefined name 'Icons' • lib/days_since_widget.dart:192:23 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:193:24 • undefined_identifier
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:195:21 • creation_with_non_type
+  error • Undefined name 'Icons' • lib/days_since_widget.dart:199:23 • undefined_identifier
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:200:24 • undefined_identifier
+  error • Undefined class 'Widget' • lib/days_since_widget.dart:209:3 • undefined_class
+  error • Undefined class 'IconData' • lib/days_since_widget.dart:212:14 • undefined_class
+  error • Undefined class 'Color' • lib/days_since_widget.dart:213:14 • undefined_class
+  error • The method 'Row' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:215:12 • undefined_method
+  error • Undefined name 'MainAxisAlignment' • lib/days_since_widget.dart:216:26 • undefined_identifier
+  error • The method 'Row' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:218:9 • undefined_method
+  error • The method 'Icon' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:220:13 • undefined_method
+  error • The name 'SizedBox' isn't a class • lib/days_since_widget.dart:221:19 • creation_with_non_type
+  error • The method 'Text' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:222:13 • undefined_method
+  error • The method 'TextStyle' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:224:22 • undefined_method
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:225:24 • undefined_identifier
+  error • The method 'Text' isn't defined for the type '_DaysSinceWidgetState' • lib/days_since_widget.dart:231:9 • undefined_method
+  error • The name 'TextStyle' isn't a class • lib/days_since_widget.dart:233:24 • creation_with_non_type
+  error • Undefined name 'Colors' • lib/days_since_widget.dart:234:20 • undefined_identifier
+  error • Undefined name 'FontWeight' • lib/days_since_widget.dart:236:25 • undefined_identifier
+

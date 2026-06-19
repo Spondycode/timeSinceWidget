@@ -18,14 +18,16 @@ class MainFlutterWindow: NSWindow {
     self.titleVisibility = .hidden
     self.titlebarAppearsTransparent = true
     
-    // Hide standard titlebar buttons (Close, Minimize, Zoom) for a pure widget look
-    self.standardWindowButton(.closeButton)?.isHidden = true
-    self.standardWindowButton(.miniaturizeButton)?.isHidden = true
-    self.standardWindowButton(.zoomButton)?.isHidden = true
-
     // Enable dragging window by background
     self.isMovableByWindowBackground = true
 
     super.awakeFromNib()
+
+    // Hide standard titlebar buttons safely on the main queue after window finishes loading
+    DispatchQueue.main.async {
+      self.standardWindowButton(.closeButton)?.isHidden = true
+      self.standardWindowButton(.miniaturizeButton)?.isHidden = true
+      self.standardWindowButton(.zoomButton)?.isHidden = true
+    }
   }
 }
